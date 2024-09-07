@@ -1,0 +1,9 @@
+# Ignore JPG and PNG files
+*.jpg
+*.png
+
+# Ignore SVG files
+*.svg
+
+# Ignore everything in the "images" folder
+images/
