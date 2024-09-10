@@ -55,3 +55,50 @@ html {
     flex-grow: 0;
   }
 }
+
+/* Banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  background: url("./images/banner.jpg") center center no-repeat;
+  background-size: cover;
+  color: #ffb78c;
+}
+
+.banner h1 {
+  padding: 0.55rem 0;
+  border-top: 4px solid #ffb78c;
+  border-bottom: 4px solid #ffb78c;
+  font-size: 1.44rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.banner h2 {
+  padding-top: 1.11rem;
+  font-size: 11rem;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 750px) {
+  .banner {
+    height: 40rem;
+  }
+
+  .banner h2 {
+    font-size: 8rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .banner {
+    height: 30rem;
+  }
+
+  .banner h2 {
+    font-size: 6rem;
+  }
+}
