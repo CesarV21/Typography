@@ -131,3 +131,22 @@ photo .image-container {
 .photo .caption {
   font-style: italic;
 }
+
+.photo.first {
+  position: relative;
+  top: -2.77rem;
+  margin-bottom: 1.67rem;
+}
+
+.journal p {
+  padding-bottom: 2.77rem;
+  font-size: 1.5rem;
+}
+
+.journal .first-letter {
+  float: left;
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 7.44rem;
+  color: #10b0d8;
+}
