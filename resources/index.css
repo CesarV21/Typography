@@ -150,3 +150,29 @@ photo .image-container {
   font-size: 7.44rem;
   color: #10b0d8;
 }
+
+.quote {
+  display: block;
+  padding: 4.44rem 0;
+  margin-bottom: 3.33rem;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  text-align: center;
+  font-size: 3.55rem;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 680px) {
+  .journal {
+    padding: 0 10% 4rem 10%;
+  }
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 1%;
+  background-color: #212121;
+}
