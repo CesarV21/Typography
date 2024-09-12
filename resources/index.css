@@ -176,3 +176,29 @@ footer {
   padding: 0 1%;
   background-color: #212121;
 }
+
+footer .image-container {
+  width: 400px;
+}
+
+footer .content {
+  flex-grow: 1;
+  font-style: italic;
+  color: #9b9b9b;
+}
+
+footer p {
+  padding-bottom: 1.66rem;
+}
+
+footer p:last-child {
+  padding-bottom: 0;
+}
+
+footer .author {
+  color: #ffb78c;
+}
+
+footer em {
+  color: #cfcfcf;
+}
