@@ -160,14 +160,7 @@ html {
   font-family: "Abril Fatface", serif;
   font-size: 7.44rem;
   color: #10b0d8;
-  .journal .first-letter {
-    float: left;
-    padding-right: 1.4rem;
-    font-family: "Abril Fatface", serif;
-    font-size: 7.44rem;
-    color: #10b0d8;
-    line-height: 0.87;
-  }
+  line-height: 0.87;
 }
 
 .quote {
@@ -195,7 +188,6 @@ footer {
   align-items: center;
   padding: 0 1%;
   background-color: #212121;
-  line-height: 1.5;
 }
 
 footer .image-container {
@@ -206,6 +198,7 @@ footer .content {
   flex-grow: 1;
   font-style: italic;
   color: #9b9b9b;
+  line-height: 1.5;
 }
 
 footer p {
